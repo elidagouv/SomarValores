@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to left,rgb(219, 114, 65), #69daae);
+    margin: 0;
+    padding: 0;
+}
+
+.inputs {
+    display: flex;
+    justify-content:center;
+    margin-top: 120px;
+    gap: 20px;
+}
+
+.number {
+    width: 150px;
+    height: 20px;
+    border-radius: 28px;
+    color: white;
+    border-color: white;
+    background-color:#278364;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.button {
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    cursor: pointer;
+    border: 0;
+    color: #278364;
+    font-weight: bold;
+    border-radius: 28px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.valor {
+    position: absolute;
+    top: 50%;
+    color:#1a5f48;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    color:#a14f2e;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-top: 146px;
+}
